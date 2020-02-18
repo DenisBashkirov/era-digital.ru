@@ -46,7 +46,7 @@ html, body {
   overflow-x: hidden; }
 
 html {
-  font-family: "Manrope-Regular", sans-serif; }
+  font-family: "Poppins-Regular", sans-serif; }
 
 a {
   color: #ED920C; }
@@ -210,16 +210,6 @@ b {
 /* */
 /* CONTAINERS */
 /* */
-@media (max-width: 991px) {
-  .visible_sm {
-    display: none !important; } }
-
-/*
- * FONTS
- */
-/* */
-/* CONTAINERS */
-/* */
 @media (max-width: 1199px) {
   .visible_xl {
     display: none !important; } }
@@ -230,9 +220,9 @@ b {
 /* */
 /* CONTAINERS */
 /* */
-.services__img {
-  background: url("/img/services/img.png") no-repeat center;
-  background-size: contain; }
+@media (max-width: 991px) {
+  .visible_sm {
+    display: none !important; } }
 
 /*
  * FONTS
@@ -251,10 +241,24 @@ b {
 /* */
 /* CONTAINERS */
 /* */
+.services__img {
+  background: url("/img/services/img.png") no-repeat center;
+  background-size: contain; }
+
+/*
+ * FONTS
+ */
+/* */
+/* CONTAINERS */
+/* */
 .services__item {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: .05em;
   padding: 60px 15px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
-  border-radius: 5px; }
+  border-radius: 5px;
+  text-align: center; }
 
 /*
  * FONTS
@@ -263,7 +267,9 @@ b {
 /* CONTAINERS */
 /* */
 .services__item-title {
-  font-family: Poppins-SemiBold, sans-serif; }
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase; }
 
 /*
  * FONTS
