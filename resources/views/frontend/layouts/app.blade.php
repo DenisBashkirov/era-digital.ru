@@ -25,11 +25,10 @@
 
     @include('frontend.sources.styles')
 
-    @include('frontend.sources.services.jivosite')
-    @include('frontend.sources.services.calltracking')
     @if(env('APP_ENV') === 'production' && Cookie::get('metrics') !== 'off')
         @include('frontend.sources.services.metrics')
     @endif
+    
 </head>
 <body>
 
