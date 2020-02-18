@@ -11,4 +11,8 @@ use Route;
 
 class FrontendBaseController extends BaseController
 {
+    public function __construct()
+    {
+        $this->template = 'frontend' . $this->template;
+    }
 }
