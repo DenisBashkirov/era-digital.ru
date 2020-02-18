@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::group(
+    ['namespace'=>'Frontend'],
+    function () {
+        Route::get('/', ['uses'=>'PagesOutputController@home', 'as'=>'home']);
+    }
+);
