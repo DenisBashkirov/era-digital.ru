@@ -78,46 +78,67 @@ b {
   font-display: block; }
 
 @font-face {
-  font-family: "Manrope-Thin";
-  src: url("../fonts/Manrope/Manrope-Thin.eot");
-  src: url("../fonts/Manrope/Manrope-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Manrope/Manrope-Thin.woff") format("woff"), url("../fonts/Manrope/Manrope-Thin.ttf") format("truetype"), url("../fonts/Manrope/Manrope-Thin.svg#Panton") format("svg");
+  font-family: "Poppins-Thin";
+  src: url("../fonts/Poppins/Poppins-Thin.eot");
+  src: url("../fonts/Poppins/Poppins-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins/Poppins-Thin.woff") format("woff"), url("../fonts/Poppins/Poppins-Thin.ttf") format("truetype"), url("../fonts/Poppins/Poppins-Thin.svg#Panton") format("svg");
   font-style: normal;
   font-weight: 100; }
 
 @font-face {
-  font-family: "Manrope-Light";
-  src: url("../fonts/Manrope/Manrope-Light.eot");
-  src: url("../fonts/Manrope/Manrope-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Manrope/Manrope-Light.woff") format("woff"), url("../fonts/Manrope/Manrope-Light.ttf") format("truetype"), url("../fonts/Manrope/Manrope-Light.svg#Panton") format("svg");
+  font-family: "Poppins-ExtraLight";
+  src: url("../fonts/Poppins/Poppins-ExtraLight.eot");
+  src: url("../fonts/Poppins/Poppins-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins/Poppins-ExtraLight.woff") format("woff"), url("../fonts/Poppins/Poppins-ExtraLight.ttf") format("truetype"), url("../fonts/Poppins/Poppins-ExtraLight.svg#Panton") format("svg");
+  font-style: normal;
+  font-weight: 200; }
+
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("../fonts/Poppins/Poppins-Light.eot");
+  src: url("../fonts/Poppins/Poppins-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins/Poppins-Light.woff") format("woff"), url("../fonts/Poppins/Poppins-Light.ttf") format("truetype"), url("../fonts/Poppins/Poppins-Light.svg#Panton") format("svg");
   font-style: normal;
   font-weight: 300; }
 
 @font-face {
-  font-family: "Manrope-Regular";
-  src: url("../fonts/Manrope/Manrope-Regular.eot");
-  src: url("../fonts/Manrope/Manrope-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Manrope/Manrope-Regular.woff") format("woff"), url("../fonts/Manrope/Manrope-Regular.ttf") format("truetype"), url("../fonts/Manrope/Manrope-Regular.svg#Panton") format("svg");
+  font-family: "Poppins-Regular";
+  src: url("../fonts/Poppins/Poppins-Regular.eot");
+  src: url("../fonts/Poppins/Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype"), url("../fonts/Poppins/Poppins-Regular.svg#Panton") format("svg");
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
-  font-family: "Manrope-Medium";
-  src: url("../fonts/Manrope/Manrope-Medium.eot");
-  src: url("../fonts/Manrope/Manrope-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Manrope/Manrope-Medium.woff") format("woff"), url("../fonts/Manrope/Manrope-Medium.ttf") format("truetype"), url("../fonts/Manrope/Manrope-Medium.svg#Panton") format("svg");
+  font-family: "Poppins-Medium";
+  src: url("../fonts/Poppins/Poppins-Medium.eot");
+  src: url("../fonts/Poppins/Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype"), url("../fonts/Poppins/Poppins-Medium.svg#Panton") format("svg");
   font-style: normal;
   font-weight: 500; }
 
 @font-face {
-  font-family: "Manrope-SemiBold";
-  src: url("../fonts/Manrope/Manrope-SemiBold.eot");
-  src: url("../fonts/Manrope/Manrope-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Manrope/Manrope-SemiBold.woff") format("woff"), url("../fonts/Manrope/Manrope-SemiBold.ttf") format("truetype"), url("../fonts/Manrope/Manrope-SemiBold.svg#Panton") format("svg");
+  font-family: "Poppins-SemiBold";
+  src: url("../fonts/Poppins/Poppins-SemiBold.eot");
+  src: url("../fonts/Poppins/Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins/Poppins-SemiBold.woff") format("woff"), url("../fonts/Poppins/Poppins-SemiBold.ttf") format("truetype"), url("../fonts/Poppins/Poppins-SemiBold.svg#Panton") format("svg");
   font-style: normal;
   font-weight: 600; }
 
 @font-face {
-  font-family: "Manrope-Bold";
-  src: url("../fonts/Manrope/Manrope-Bold.eot");
-  src: url("../fonts/Manrope/Manrope-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Manrope/Manrope-Bold.woff") format("woff"), url("../fonts/Manrope/Manrope-Bold.ttf") format("truetype"), url("../fonts/Manrope/Manrope-Bold.svg#Panton") format("svg");
+  font-family: "Poppins-Bold";
+  src: url("../fonts/Poppins/Poppins-Bold.eot");
+  src: url("../fonts/Poppins/Poppins-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins/Poppins-Bold.woff") format("woff"), url("../fonts/Poppins/Poppins-Bold.ttf") format("truetype"), url("../fonts/Poppins/Poppins-Bold.svg#Panton") format("svg");
   font-style: normal;
   font-weight: bold; }
+
+@font-face {
+  font-family: "Poppins-ExtraBold";
+  src: url("../fonts/Poppins/Poppins-ExtraBold.eot");
+  src: url("../fonts/Poppins/Poppins-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins/Poppins-ExtraBold.woff") format("woff"), url("../fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype"), url("../fonts/Poppins/Poppins-ExtraBold.svg#Panton") format("svg");
+  font-style: normal;
+  font-weight: 800; }
+
+@font-face {
+  font-family: "Poppins-Black";
+  src: url("../fonts/Poppins/Poppins-Black.eot");
+  src: url("../fonts/Poppins/Poppins-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins/Poppins-Black.woff") format("woff"), url("../fonts/Poppins/Poppins-Black.ttf") format("truetype"), url("../fonts/Poppins/Poppins-Black.svg#Panton") format("svg");
+  font-style: normal;
+  font-weight: 900; }
 
 /*
  * FONTS
