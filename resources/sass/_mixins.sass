@@ -1,0 +1,69 @@
+@import "vars"
+
+/*
+ * FONTS
+ */
+@mixin font-face($font-family, $font-name, $font-weight, $font-style: normal)
+  font-family: $font-name
+  src: url($folder_fonts + $font-family + '/' + $font-name + '.eot')
+  src: url($folder_fonts + $font-family + '/' + $font-name + '.eot?#iefix') format('embedded-opentype'), url($folder_fonts + $font-family + '/' + $font-name + '.woff') format('woff'), url($folder_fonts + $font-family + '/' + $font-name + '.ttf') format('truetype'), url($folder_fonts + $font-family + '/' + $font-name + '.svg#' + $font-name) format('svg')
+  font-weight: $font-weight
+  font-style: $font-style
+
+/*
+/* CONTAINERS
+/*
+
+@mixin container($position: initial)
+  padding-left: calc(#{$grid-column-gap} / 2)
+  padding-right: calc(#{$grid-column-gap} / 2)
+  margin: 0 auto
+  box-sizing: border-box
+  width: 100%
+
+  @media ($breakpoint_md)
+    width: $container_md
+
+  @media ($breakpoint_lg)
+    width: $container_lg
+
+  @media ($breakpoint_xl)
+    width: $container_xl
+
+  @if ($position == absolute)
+    position: absolute
+    left: 50%
+    margin-left: calc(-1 * 100% / 2)
+    @media ($breakpoint_sm)
+      margin-left: calc(-1 * #{$sm} / 2)
+    @media ($breakpoint_md)
+      margin-left: calc(-1 * #{$md} / 2)
+    @media ($breakpoint_lg)
+      margin-left: calc(-1 * #{$lg} / 2)
+    @media ($breakpoint_xl)
+      margin-left: calc(-1 * #{$xl} / 2)
+
+@mixin container-fluid()
+  width: 100%
+  box-sizing: border-box
+
+
+@mixin overlay()
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+
+
+@mixin elem-spacing($spacing, $direction: column, $display: flex)
+    display: $display
+    flex-direction: $direction
+
+    @if($direction == 'column')
+        & > *:not(:first-child)
+            margin-top: $spacing
+
+    @if($direction == 'row')
+        & > *:not(:first-child)
+            margin-left: $spacing
