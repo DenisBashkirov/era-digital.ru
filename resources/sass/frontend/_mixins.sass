@@ -39,3 +39,17 @@
     @else
         display: grid
     grid-row-gap: $row-gap
+    grid-template-rows: repeat($rows, 1fr)
+
+
+@mixin grid-cols($cols, $row-gap: 30px, $inline: false)
+    @if($inline)
+        display: inline-grid
+    @else
+        display: grid
+    grid-column-gap: $row-gap
+    grid-template-columns: repeat($cols, 1fr)
+
+
+@mixin border-radius($radius: $border-radius)
+    border-radius: $radius
