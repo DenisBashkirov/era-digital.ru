@@ -7,6 +7,7 @@
         <div class="services__list">
             <div class="services__item">
                 <p class="services__item-title">Веб-сайты</p>
+                <div class="services__item-line"></div>
                 <p class="services__item-text">Разработка и обслуживание</p>
             </div>
         </div>
