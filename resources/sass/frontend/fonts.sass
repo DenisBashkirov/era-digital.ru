@@ -1,0 +1,27 @@
+@import "bootstrap"
+
+$folder: '../fonts'
+$icomoon: '/public/fonts/icons/fonts/icomoon'
+
+@font-face
+    font-family: 'icomoon'
+    src:  url($icomoon + '.eot?h2436g')
+    src:  url($icomoon + '.eot?h2436g#iefix') format('embedded-opentype'),
+    url($icomoon + '.ttf?h2436g') format('truetype'),
+    url($icomoon + '.woff?h2436g') format('woff'),
+    url($icomoon +'.svg?h2436g#icomoon') format('svg')
+    font-weight: normal
+    font-style: normal
+    font-display: block
+
+@each $font-name, $font-weight, $font-style in ('Thin', 100, normal), ('Light', 300, normal), ('Regular', normal, normal), ('Medium', 500, normal), ('SemiBold', 600, normal), ('Bold', bold, normal)
+  $font-family: 'Manrope'
+
+  @font-face
+    font-family: $font-family + '-' + $font-name
+
+    src: url($folder + '/' + $font-family + '/' + $font-family + '-' + $font-name + '.eot')
+
+    src: url($folder + '/' + $font-family + '/' + $font-family + '-' + $font-name + '.eot?#iefix') format('embedded-opentype'), url($folder + '/' + $font-family + '/' + $font-family + '-' + $font-name + '.woff') format('woff'), url($folder + '/' + $font-family + '/' + $font-family + '-' + $font-name + '.ttf') format('truetype'), url($folder + '/' + $font-family + '/' + $font-family + '-' + $font-name + '.svg#Panton') format('svg')
+    font-style: $font-style
+    font-weight: $font-weight

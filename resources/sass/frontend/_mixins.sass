@@ -1,0 +1,41 @@
+@import "vars"
+
+@mixin text-huge()
+    @media ($breakpoint_md_max)
+        font-size: 20px
+
+    @media ($breakpoint_lg)
+        font-size: 22px
+
+    @media ($breakpoint_xl)
+        font-size: 24px
+
+
+@mixin text-small
+    @media ($breakpoint_md_max)
+        font-size: 14px
+
+    @media ($breakpoint_lg)
+        font-size: 14px
+
+
+    @media ($breakpoint_xl)
+        font-size: 16px
+
+
+@mixin section_padding($padding)
+    padding-top: $padding
+    padding-bottom: $padding
+
+
+@mixin section-vw()
+    width: 100vw
+    margin-left: calc((100vw - 100%) / -2)
+
+
+@mixin grid-rows($row-gap, $inline: false)
+    @if($inline)
+        display: inline-grid
+    @else
+        display: grid
+    grid-row-gap: $row-gap
