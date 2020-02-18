@@ -33,7 +33,7 @@
     margin-left: calc((100vw - 100%) / -2)
 
 
-@mixin grid-rows($row-gap, $inline: false)
+@mixin grid-rows($rows, $row-gap: 30px, $inline: false)
     @if($inline)
         display: inline-grid
     @else
