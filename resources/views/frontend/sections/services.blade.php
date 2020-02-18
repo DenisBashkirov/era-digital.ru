@@ -3,7 +3,7 @@
     <div class="services__body">
 
         <div class="services__img"></div>
-        
+
         <div class="services__list">
             <div class="services__item">
                 <p class="services__item-title">Веб-сайты</p>
