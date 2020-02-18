@@ -15,7 +15,7 @@ class FrontendOutputController extends FrontendBaseController
 
     public function home(Request $request) {
 
-
+        return $this->renderOutput();
     }
 
 }
