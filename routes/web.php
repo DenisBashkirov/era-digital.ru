@@ -14,6 +14,6 @@
 Route::group(
     ['namespace'=>'Frontend'],
     function () {
-        Route::get('/', ['uses'=>'PagesOutputController@home', 'as'=>'home']);
+        Route::get('/', ['uses'=>'FrontendOutputController@home', 'as'=>'home']);
     }
 );
