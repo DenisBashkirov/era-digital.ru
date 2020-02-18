@@ -13,6 +13,7 @@ class FrontendBaseController extends BaseController
 {
     public function __construct()
     {
-        $this->template = 'frontend' . $this->template;
+        $this->template = $action = Route::currentRouteName();
+        $this->template = 'frontend.pages.' . $this->template;
     }
 }
