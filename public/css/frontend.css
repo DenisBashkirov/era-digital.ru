@@ -210,8 +210,8 @@ b {
 /* */
 /* CONTAINERS */
 /* */
-@media (max-width: 1199px) {
-  .visible_xl {
+@media (max-width: 991px) {
+  .visible_sm {
     display: none !important; } }
 
 /*
@@ -220,8 +220,8 @@ b {
 /* */
 /* CONTAINERS */
 /* */
-@media (max-width: 991px) {
-  .visible_sm {
+@media (max-width: 1199px) {
+  .visible_xl {
     display: none !important; } }
 
 /*
@@ -259,6 +259,17 @@ b {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
   border-radius: 5px;
   text-align: center; }
+
+/*
+ * FONTS
+ */
+/* */
+/* CONTAINERS */
+/* */
+.services__item-line {
+  width: 70px;
+  height: 2px;
+  background: #d7d7d7; }
 
 /*
  * FONTS
