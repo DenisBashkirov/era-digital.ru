@@ -154,16 +154,6 @@ b {
 /* */
 /* CONTAINERS */
 /* */
-.jc-center {
-  display: flex;
-  justify-content: center; }
-
-/*
- * FONTS
- */
-/* */
-/* CONTAINERS */
-/* */
 .container {
   padding-left: calc(30px / 2);
   padding-right: calc(30px / 2);
@@ -179,6 +169,16 @@ b {
   @media (min-width: +1200px) {
     .container {
       width: 1200px; } }
+
+/*
+ * FONTS
+ */
+/* */
+/* CONTAINERS */
+/* */
+.jc-center {
+  display: flex;
+  justify-content: center; }
 
 /*
  * FONTS
@@ -250,8 +250,8 @@ b {
 /* */
 /* CONTAINERS */
 /* */
-@media (max-width: 1199px) {
-  .visible_xl {
+@media (max-width: 991px) {
+  .visible_sm {
     display: none !important; } }
 
 /*
@@ -260,8 +260,8 @@ b {
 /* */
 /* CONTAINERS */
 /* */
-@media (max-width: 991px) {
-  .visible_sm {
+@media (max-width: 1199px) {
+  .visible_xl {
     display: none !important; } }
 
 /*
