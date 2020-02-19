@@ -190,6 +190,15 @@ b {
 /* */
 /* CONTAINERS */
 /* */
+.services {
+  padding: 150px 0; }
+
+/*
+ * FONTS
+ */
+/* */
+/* CONTAINERS */
+/* */
 @media (min-width: +768px) {
   .hidden_md {
     display: none; } }
@@ -258,7 +267,12 @@ b {
   padding: 60px 15px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
   border-radius: 5px;
-  text-align: center; }
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .services__item > *:not(:first-child) {
+    margin-top: 15px; }
 
 /*
  * FONTS
@@ -280,7 +294,8 @@ b {
 .services__item-title {
   font-size: 20px;
   font-weight: 600;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  position: relative; }
 
 /*
  * FONTS
