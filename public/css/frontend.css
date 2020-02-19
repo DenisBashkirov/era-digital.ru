@@ -239,6 +239,18 @@ b {
 /* */
 /* CONTAINERS */
 /* */
+.header__contacts-item {
+  font-size: 24px;
+  font-weight: 200;
+  color: #151515;
+  text-decoration: none; }
+
+/*
+ * FONTS
+ */
+/* */
+/* CONTAINERS */
+/* */
 .services__body {
   display: grid;
   grid-column-gap: 30px;
