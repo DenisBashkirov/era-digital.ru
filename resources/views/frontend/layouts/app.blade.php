@@ -25,10 +25,6 @@
 
     @include('frontend.sources.styles')
 
-    @if(env('APP_ENV') === 'production' && Cookie::get('metrics') !== 'off')
-        @include('frontend.sources.services.metrics')
-    @endif
-
 </head>
 <body>
 
