@@ -200,7 +200,8 @@ b {
 /* */
 .header {
   position: absolute;
-  top: 0; }
+  top: 0;
+  width: 100%; }
 
 /*
  * FONTS
@@ -209,7 +210,7 @@ b {
 /* CONTAINERS */
 /* */
 .services {
-  padding: 150px 0; }
+  padding: 250px 0 150px; }
 
 /*
  * FONTS
@@ -239,9 +240,43 @@ b {
 /* */
 /* CONTAINERS */
 /* */
+@media (max-width: 767px) {
+  .visible_md {
+    display: none !important; } }
+
+/*
+ * FONTS
+ */
+/* */
+/* CONTAINERS */
+/* */
 @media (max-width: 1199px) {
   .visible_xl {
     display: none !important; } }
+
+/*
+ * FONTS
+ */
+/* */
+/* CONTAINERS */
+/* */
+@media (max-width: 991px) {
+  .visible_sm {
+    display: none !important; } }
+
+/*
+ * FONTS
+ */
+/* */
+/* CONTAINERS */
+/* */
+.header__contacts {
+  height: 80px;
+  text-align: right;
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto;
+  align-content: center; }
 
 /*
  * FONTS
@@ -273,23 +308,10 @@ b {
 /* */
 /* CONTAINERS */
 /* */
-.header__contacts {
-  height: 80px;
-  text-align: right;
+.services__body {
   display: grid;
-  grid-column-gap: 50px;
-  grid-template-columns: auto auto;
-  align-content: center; }
-
-/*
- * FONTS
- */
-/* */
-/* CONTAINERS */
-/* */
-.services__img {
-  background: url("/img/services/img.png") no-repeat center;
-  background-size: contain; }
+  grid-column-gap: 30px;
+  grid-template-columns: repeat(2, 1fr); }
 
 /*
  * FONTS
@@ -317,10 +339,9 @@ b {
 /* */
 /* CONTAINERS */
 /* */
-.services__body {
-  display: grid;
-  grid-column-gap: 30px;
-  grid-template-columns: repeat(2, 1fr); }
+.services__img {
+  background: url("/img/services/img.png") no-repeat center;
+  background-size: contain; }
 
 /*
  * FONTS
@@ -374,29 +395,23 @@ b {
 /* */
 /* CONTAINERS */
 /* */
+.title-screen__tape {
+  height: 216px;
+  width: 100vw;
+  position: absolute;
+  background: url("/img/tape.png") no-repeat center;
+  background-size: contain;
+  bottom: -100px; }
+
+/*
+ * FONTS
+ */
+/* */
+/* CONTAINERS */
+/* */
 .title-screen__h1 {
   font-size: 72px;
   letter-spacing: .1em;
   text-transform: uppercase; }
-
-/*
- * FONTS
- */
-/* */
-/* CONTAINERS */
-/* */
-@media (max-width: 767px) {
-  .visible_md {
-    display: none !important; } }
-
-/*
- * FONTS
- */
-/* */
-/* CONTAINERS */
-/* */
-@media (max-width: 991px) {
-  .visible_sm {
-    display: none !important; } }
 
 /*# sourceMappingURL=frontend.css.map */

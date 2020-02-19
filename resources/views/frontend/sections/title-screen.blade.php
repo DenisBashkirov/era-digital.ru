@@ -10,5 +10,6 @@
             <h1 class="title-screen__h1">Диджитал маркетинг</h1>
         </div>
     </div>
+    <div class="title-screen__tape"></div>
 
 </section>
