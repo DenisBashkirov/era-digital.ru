@@ -154,6 +154,16 @@ b {
 /* */
 /* CONTAINERS */
 /* */
+.jc-center {
+  display: flex;
+  justify-content: center; }
+
+/*
+ * FONTS
+ */
+/* */
+/* CONTAINERS */
+/* */
 .container {
   padding-left: calc(30px / 2);
   padding-right: calc(30px / 2);
@@ -169,16 +179,6 @@ b {
   @media (min-width: +1200px) {
     .container {
       width: 1200px; } }
-
-/*
- * FONTS
- */
-/* */
-/* CONTAINERS */
-/* */
-.jc-center {
-  display: flex;
-  justify-content: center; }
 
 /*
  * FONTS
@@ -319,6 +319,16 @@ b {
 /* */
 /* CONTAINERS */
 /* */
+.services__img {
+  background: url("/img/services/img.png") no-repeat center;
+  background-size: contain; }
+
+/*
+ * FONTS
+ */
+/* */
+/* CONTAINERS */
+/* */
 .services__item {
   font-size: 20px;
   font-weight: 300;
@@ -332,16 +342,6 @@ b {
   align-items: center; }
   .services__item > *:not(:first-child) {
     margin-top: 15px; }
-
-/*
- * FONTS
- */
-/* */
-/* CONTAINERS */
-/* */
-.services__img {
-  background: url("/img/services/img.png") no-repeat center;
-  background-size: contain; }
 
 /*
  * FONTS
@@ -395,13 +395,10 @@ b {
 /* */
 /* CONTAINERS */
 /* */
-.title-screen__tape {
-  height: 216px;
-  width: 100vw;
-  position: absolute;
-  background: url("/img/tape.png") no-repeat center;
-  background-size: contain;
-  bottom: -100px; }
+.title-screen__h1 {
+  font-size: 72px;
+  letter-spacing: .1em;
+  text-transform: uppercase; }
 
 /*
  * FONTS
@@ -409,9 +406,12 @@ b {
 /* */
 /* CONTAINERS */
 /* */
-.title-screen__h1 {
-  font-size: 72px;
-  letter-spacing: .1em;
-  text-transform: uppercase; }
+.title-screen__tape {
+  height: 216px;
+  width: 100vw;
+  position: absolute;
+  background: url("/img/tape.png") no-repeat center;
+  background-size: contain;
+  bottom: -100px; }
 
 /*# sourceMappingURL=frontend.css.map */
