@@ -186,6 +186,17 @@ b {
 /* */
 /* CONTAINERS */
 /* */
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%; }
+
+/*
+ * FONTS
+ */
+/* */
+/* CONTAINERS */
+/* */
 .ymap {
   display: block;
   width: 100%;
@@ -198,10 +209,8 @@ b {
 /* */
 /* CONTAINERS */
 /* */
-.header {
-  position: absolute;
-  top: 0;
-  width: 100%; }
+.services {
+  padding: 250px 0 150px; }
 
 /*
  * FONTS
@@ -209,8 +218,11 @@ b {
 /* */
 /* CONTAINERS */
 /* */
-.services {
-  padding: 250px 0 150px; }
+.service-profiles {
+  padding-top: 150px;
+  display: grid;
+  grid-row-gap: 100px;
+  grid-template-rows: repeat(4, 1fr); }
 
 /*
  * FONTS
@@ -308,10 +320,9 @@ b {
 /* */
 /* CONTAINERS */
 /* */
-.services__body {
-  display: grid;
-  grid-column-gap: 30px;
-  grid-template-columns: repeat(2, 1fr); }
+.services__img {
+  background: url("/img/services/img.png") no-repeat center;
+  background-size: contain; }
 
 /*
  * FONTS
@@ -319,9 +330,10 @@ b {
 /* */
 /* CONTAINERS */
 /* */
-.services__img {
-  background: url("/img/services/img.png") no-repeat center;
-  background-size: contain; }
+.services__body {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-template-columns: repeat(2, 1fr); }
 
 /*
  * FONTS
@@ -377,6 +389,75 @@ b {
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px; }
+
+/*
+ * FONTS
+ */
+/* */
+/* CONTAINERS */
+/* */
+.service-profiles__item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 30px;
+  align-items: center; }
+
+/*
+ * FONTS
+ */
+/* */
+/* CONTAINERS */
+/* */
+.service-profiles__item-body {
+  display: flex;
+  flex-direction: column; }
+  .service-profiles__item-body > *:not(:first-child) {
+    margin-top: 15px; }
+
+/*
+ * FONTS
+ */
+/* */
+/* CONTAINERS */
+/* */
+.services-profiles__item-header {
+  font-size: 24px;
+  font-weight: 600; }
+
+/*
+ * FONTS
+ */
+/* */
+/* CONTAINERS */
+/* */
+.service-profiles__item-img {
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/*
+ * FONTS
+ */
+/* */
+/* CONTAINERS */
+/* */
+.service-profiles__item-img-src {
+  height: 100%; }
+
+/*
+ * FONTS
+ */
+/* */
+/* CONTAINERS */
+/* */
+.services-profiles__item-text {
+  font-size: 18px;
+  font-weight: 300; }
+  .services-profiles__item-text p {
+    line-height: 125%; }
+  .services-profiles__item-text p:not(last-child) {
+    margin-bottom: 5px; }
 
 /*
  * FONTS

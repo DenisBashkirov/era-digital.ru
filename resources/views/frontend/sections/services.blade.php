@@ -32,7 +32,7 @@
     <div class="service-profiles">
         <div class="service-profiles__item">
             <div class="service-profiles__item-img">
-                <img src="{{asset('img/services/laravel-logo.png')}}" alt="Laravel фреймворк логотип">
+                <img class="service-profiles__item-img-src" src="{{asset('img/services/laravel-logo.png')}}" alt="Laravel фреймворк логотип">
             </div>
             <div class="service-profiles__item-body">
                 <h3 class="services-profiles__item-header">РАЗРАБОТКА ВЕБ-САЙТОВ</h3>
@@ -46,7 +46,7 @@
         </div>
         <div class="service-profiles__item">
             <div class="service-profiles__item-img">
-                <img src="{{asset('img/services/bitrix24-logo.png')}}" alt="Bitrix24 логотип">
+                <img class="service-profiles__item-img-src" src="{{asset('img/services/bitrix24-logo.png')}}" alt="Bitrix24 логотип">
             </div>
             <div class="service-profiles__item-body">
                 <h3 class="services-profiles__item-header">ВНЕДРЕНИЕ CRM ПОМОЖЕТ</h3>
@@ -60,7 +60,7 @@
         </div>
         <div class="service-profiles__item">
             <div class="service-profiles__item-img">
-                <img src="{{asset('img/services/google-ads-logo.png')}}" alt="Google Ads логотип">
+                <img class="service-profiles__item-img-src" src="{{asset('img/services/google-ads-logo.png')}}" alt="Google Ads логотип">
             </div>
             <div class="service-profiles__item-body">
                 <h3 class="services-profiles__item-header">РЕКЛАМА В ИНТЕРНЕТЕ</h3>
@@ -75,7 +75,7 @@
         </div>
         <div class="service-profiles__item">
             <div class="service-profiles__item-img">
-                <img src="{{asset('img/services/google-logo.png')}}" alt="Google логотип">
+                <img class="service-profiles__item-img-src" src="{{asset('img/services/google-logo.png')}}" alt="Google логотип">
             </div>
             <div class="service-profiles__item-body">
                 <h3 class="services-profiles__item-header">SEO ПРОДВИЖЕНИЕ</h3>
