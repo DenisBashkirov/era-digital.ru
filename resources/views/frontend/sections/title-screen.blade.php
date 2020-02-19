@@ -7,7 +7,7 @@
             <div class="title-screen__logo">
                 <img src="{{asset('img/logos/title-screen.png')}}" alt="Era Digital логотип">
             </div>
-            <h1 class="h1">Диджитал маркетинг</h1>
+            <h1 class="title-screen__h1">Диджитал маркетинг</h1>
         </div>
     </div>
 
